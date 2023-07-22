@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon" />
+    <title>Penguin Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,9 +24,17 @@
   <body>
     <header class="bg-[#FFFBF0;]">
       <div class="max-w-7xl m-auto">
-        <nav></nav>
+        <nav class="flex justify-between">
+          <img class="h-12 w-56 py-2" src="icons/logo.png" alt="logo.png" />
+          <ul class="flex gap-8 justify-around items-center">
+            <li>Home</li>
+            <li>Product</li>
+            <li>About US</li>
+            <li>Contact US</li>
+          </ul>
+        </nav>
         <div class="flex justify-between items-center py-8 px-14">
-          <div>
+          <div class="">
             <h2 class="text-6xl font-bebas font-normal text-[#363958;]">
               <span class="text-[#FABE4C;]">Be the Penguins</span> <br />
               of Winter
