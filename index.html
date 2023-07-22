@@ -5,8 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-bebas {
+        font-family: "Bebas Neue", sans-serif;
+      }
+      .font-roboto {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello</h1>
+    <header class="bg-[#FFFBF0;]">
+      <div class="max-w-7xl m-auto">
+        <nav></nav>
+        <div class="flex justify-between items-center py-8 px-14">
+          <div>
+            <h2 class="text-6xl font-bebas font-normal text-[#363958;]">
+              <span class="text-[#FABE4C;]">Be the Penguins</span> <br />
+              of Winter
+            </h2>
+            <p class="text-sm text-[#3E3E3E;] font-roboto font-normal py-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="bg-red-700 py-2 px-3 flex rounded-md text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <img
+                class="h-6 w-6 mr-2"
+                src="icons/shopping-cart 1.png"
+                alt="shopping-cart 1.png"
+              />BUY NOW
+            </button>
+          </div>
+          <div>
+            <img src="images/model.png" alt="model.png" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
   </body>
 </html>
